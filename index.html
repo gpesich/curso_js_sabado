@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        input { display: none}
+        #dropzone {
+            padding: 1rem ; 
+            border: 3px dashed grey;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        #dropzone:hover {
+            border-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div id="dropzone">
+        <label for="archivo">Haga click para seleccionar sus archivos o arrastre y sueltelos</label>
+    </div>
+    <input type="file" id="archivo">
+    <script src="script.js"></script>    
+</body>
+</html>

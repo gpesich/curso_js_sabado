@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .hidden {
+            display: none;
+        }
+
+        #youtube-loader {
+            background-color: red;
+            height: 4px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            transition: width 0.3s ease;
+        }
+        img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="youtube-loader"></div>
+    <progress value="60" max="100" class="hidden"></progress>
+    <script src="script.js"></script>
+</body>
+</html>
